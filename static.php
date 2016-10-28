@@ -1,0 +1,1 @@
+<?phpinclude_once("index.php");Human::getInfo();Human::sayHello();//Human->sayHello();?>
