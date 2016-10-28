@@ -1,0 +1,1 @@
+<?phpclass user{    public $name;    protected $login;    private $mail;    public function sendMail(){     //    }}class admin extends user{    public function sendMail(){        parent::sendMail();        echo 'Письмо доставлено';    }}?>
